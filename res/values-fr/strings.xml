@@ -624,6 +624,15 @@
     <string name="wifi_scan_always_turnon_message" msgid="203123538572122989">"Pour améliorer la précision de la position et à d\'autres fins, <xliff:g id="APP_NAME">%1$s</xliff:g> souhaite activer la recherche de réseaux, même lorsque le Wi-Fi est désactivé.\n\nDonner cette autorisation à toutes les applications souhaitant activer la recherche de réseaux ?"</string>
     <string name="wifi_scan_always_confirm_allow" msgid="5355973075896817232">"Autoriser"</string>
     <string name="wifi_scan_always_confirm_deny" msgid="4463982053823520710">"Refuser"</string>
+	
+	<string name="wifi_mode">Mode</string>
+    <string name="wifi_mode_ibss">Réseau Ad-Hoc(IBSS)</string>
+    <string name="wifi_mode_ibss_short">Ad-Hoc</string>
+
+    <string name="wifi_ibss_freq_title">Canal / Fréquence</string>
+    <string name="wifi_channel">Canal</string>
+    <string name="wifi_mhz">MHz</string>
+	
     <string name="wifi_connect" msgid="1076622875777072845">"Se connecter"</string>
     <string name="wifi_failed_connect_message" msgid="8491902558970292871">"Échec de la connexion au réseau."</string>
     <string name="wifi_forget" msgid="8168174695608386644">"Retirer"</string>
@@ -688,6 +697,15 @@
     <string name="all_volume_title" msgid="4296957391257836961">"Volume"</string>
     <string name="musicfx_title" msgid="3415566786340790345">"Effets musicaux"</string>
     <string name="ring_volume_title" msgid="7938706566797464165">"Volume de la sonnerie"</string>
+	
+    <string name="volume_steps_alarm_title">Étapes de volume: Alarme</string>
+    <string name="volume_steps_dtmf_title">Étapes de volume: DTMF</string>
+    <string name="volume_steps_music_title">Étapes de volume: Musique</string>
+    <string name="volume_steps_notification_title">Étapes de volume: Notification</string>
+    <string name="volume_steps_ring_title">Étapes de volume: Sonnerie</string>
+    <string name="volume_steps_system_title">Étapes de volume: Système</string>
+    <string name="volume_steps_voice_call_title">Étapes de volume: Appel vocal</string>
+	
     <string name="vibrate_in_silent_title" msgid="3897968069156767036">"Vibrer en mode silencieux"</string>
     <string name="notification_sound_title" msgid="5137483249425507572">"Son de notification par défaut"</string>
     <string name="notification_pulse_title" msgid="1247988024534030629">"Voyant de notification"</string>
