@@ -206,6 +206,7 @@
     <string name="lockscreen_widgets_category_title">Widgets</string>
     <string name="lockscreen_maximize_widgets_title">Maximiser les widgets</string>
     <string name="lockscreen_maximize_widgets_summary">Afficher les widgets maximisés au déverrouillage</string>
+    <string name="lockscreen_enable_camera_title">Widget appareil photo</string>
     <string name="safe_headset_volume_title">Volume sécurisé du casque</string>
     <string name="cyanogenmod_waiver_title">Renonciation</string>
     <string name="cyanogenmod_waiver_body">Le changement de ce paramètre peut être interdit par les lois de votre gouvernement ou état.\n\nEn sélectionnant \'OK\' ci-dessous, vous reconnaissez avoir pris connaissance de cet avertissement, et vous dégagez CyanogenMod et ses contributeurs de toutes responsabilités et de toutes obligations juridiques.</string>
@@ -227,6 +228,7 @@
     <string name="title_tile_mobiledata">Données mobiles</string>
     <string name="title_tile_profile">Profil</string>
     <string name="title_tile_performance_profile">Profil de performance</string>
+    <string name="title_tile_quick_record">Enregistrement rapide</string>
     <string name="title_tile_autorotate">Rotation automatique</string>
     <string name="title_tile_settings">Paramètres</string>
     <string name="title_tile_sound">Son</string>
@@ -240,6 +242,7 @@
     <string name="title_tile_quiet_hours">Heures silencieuses</string>
     <string name="title_tile_volume">Volume</string>
     <string name="title_tile_expanded_desktop">Bureau étendu</string>
+    <string name="title_tile_music">Musique</string>
     <string name="title_tile_network_adb">ADB réseau</string>
     <string name="title_dynamic_tiles">Raccourcis dynamiques</string>
     <string name="dynamic_tiles_note_title">Note</string>
@@ -461,6 +464,7 @@ Des options supplémentaires sont disponibles en appuyant longtemps sur une lign
     <string name="adb_over_network_summary">Activer le débogage TCP/IP sur toutes les interfaces réseaux (réseaux USB, Wi-Fi et Bluetooth). Ce paramètre est réinitialisé au redémarrage</string>
     <string name="adb_over_network_warning">ATTENTION : Lorsque cette fonction est activée, votre appareil est ouvert aux intrusions sur tous les réseaux connectés, y compris via le réseau mobile\u00A0!\n\nN\'utilisez cette fonctionnalité que sur des réseaux de confiance.\n\nContinuer\u00A0?</string>
     <string name="device_hostname">Nom d\'hôte de l\'appareil</string>
+    <string name="battery_around_lockscreen_ring">Batterie autour de l'anneau de déverrouillage</string>
     <string name="system_settings_title">Interface</string>
     <string name="system_interface_title">Interface système</string>
     <string name="notification_drawer_title">Barre de notification</string>
@@ -524,33 +528,22 @@ Des options supplémentaires sont disponibles en appuyant longtemps sur une lign
     <string name="icon_picker_search">Recherche</string>
     <string name="icon_picker_sms">Messages</string>
     <string name="icon_picker_twitter">Twitter</string>
-    <string name="navigation_bar_category">Barre de navigation</string>
-    <string name="navigation_bar_title">Boutons et disposition</string>
-    <string name="navigation_bar_help_text">1 - Pour commencer l\'édition, appuyer sur le cadenas\n\n2 - Appuyer sur un des boutons pour assigner ou changer une fonctionnalité\n\n3 - Exercer une pression longue pour modifier l\'ordre\n\n4 - Pour enregistrer, appuyer à nouveau sur le cadenas\n\n5 - Pour remettre à zéro, appuyer sur le bouton \"Réinitialiser\"\n\n</string>
-    <string name="navigation_bar_tips">&#8226; Les actions ne peuvent être assignées qu\'une seule fois\n\n&#8226; Le bouton d\'accueil ne peut être réassigné\n\n&#8226; Les boutons sur le bord ne peuvent être déplacés</string>
-    <string name="navigation_bar_tips_title">Conseils pratiques</string>
-    <string name="navigation_bar_reset_message">Supprimer les paramètres actuels et remettre à zéro\u00A0?</string>
-    <string name="navigation_bar_save_message">Paramètres de la barre de navigation enregistrés</string>
-    <string name="navigation_bar_reset_toast">Barre de navigation remise à zéro</string>
-    <string name="navigation_bar_menu_editable">Modifiable</string>
-    <string name="navigation_bar_menu_locked">Verrouillée</string>
-    <string name="navigation_ring_title">Raccourcis de lancement rapide</string>
-    <string name="navring_target_reset_message">Supprimer tous les raccourcis de la barre de navigation et revenir à la configuration d\'origine\u00A0?</string>
-    <string name="navring_target_reset">Raccourcis de la barre de navigation réinitialisés</string>
-    <string name="navring_action_open_ime_switcher">Changer la méthode de saisie</string>
-    <string name="navring_action_kill_app">Fermer les applications</string>
-    <string name="navring_action_none">Aucun</string>
-    <string name="navring_action_take_screenshot">Effectuer une capture d\'écran</string>
-    <string name="navring_action_ring_vibrate">Sonnerie/Vibreur</string>
-    <string name="navring_action_ring_silent">Sonnerie/Silencieux</string>
-    <string name="navring_action_ring_vibrate_silent">Sonnerie/Vibreur/Silencieux</string>
-    <string name="navring_action_screen_off">Mise en veille</string>
-    <string name="navring_action_torch">Lampe</string>
-    <string name="navring_action_google_now">Google Now</string>
-    <string name="navring_choose_action_title">Choisir une action</string>
+    <string name="lockscreen_buttons_title">Actions des boutons</string>
+    <string name="lockscreen_buttons_summary">Voir ou changer les actions des boutons de l\'écran de verrouillage</string>
+    <string name="lockscreen_long_press_back_title">Appui long sur le bouton Retour</string>
+    <string name="lockscreen_long_press_home_title">Appui long sur le bouton Home </string>
+    <string name="lockscreen_long_press_menu_title">Appui long sur le bouton Menu</string>
+    <string name="lockscreen_buttons_no_action">Aucune action</string>
+    <string name="lockscreen_buttons_flashlight">Flash</string>
+    <string name="lockscreen_buttons_next">Chanson suivante</string>
+    <string name="lockscreen_buttons_previous">Chanson précédente</string>
+    <string name="lockscreen_buttons_playpause">Lecture/Pause musique</string>
+    <string name="lockscreen_buttons_toggle_sound">Basculer le son</string>
+    <string name="lockscreen_buttons_sleep">Mettre en veille</string>
     <string name="power_menu_title">Menu marche/arrêt</string>
     <string name="power_menu_reboot_title">Redémarrer</string>
     <string name="power_menu_screenshot_title">Capture d\'écran</string>
+    <string name="power_menu_screenrecord_title">Capture vidéo</string>
     <string name="power_menu_expanded_desktop">Bureau étendu</string>
     <string name="expanded_desktop_disabled">Désactivé</string>
     <string name="expanded_desktop_status_bar">Barre de notification visible</string>
@@ -605,6 +598,7 @@ Des options supplémentaires sont disponibles en appuyant longtemps sur une lign
     <string name="backlight_summary_disabled">Désactivé</string>
     <string name="backlight_summary_enabled_with_timeout">Activé pendant <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">Activé</string>
+    <string name="accessibility_home_button_answers_call_prerefence_title">Bouton Home pour répondre aux appels</string>
     <string name="confirm_delete_apn">L\'APN va être supprimé.</string>
     <string name="status_bar_title">Barre d\'état</string>
     <string name="status_bar_battery_title">Affichage du niveau de batterie</string>
@@ -654,6 +648,15 @@ Des options supplémentaires sont disponibles en appuyant longtemps sur une lign
     <string name="gestures_action_search">Lancer une recherche</string>
     <string name="gestures_action_recent">Applications récentes</string>
     <string name="stylus_app_not_installed">%s n\'est pas installé</string>
+    <string name="pref_scrollingcache_title">Défilement du cache</string>
+    <string name="pref_scrollingcache_summary">Le défilement du cache peut améliorer les performances de défilement au détriment de la mémoire</string>
+    <string name="pref_scrollingcache_force_enable">Activer</string>
+    <string name="pref_scrollingcache_default_enable">Activer par défaut</string>
+    <string name="pref_scrollingcache_default_disable">Désactiver par défaut</string>
+    <string name="pref_scrollingcache_force_disable">Désactivé</string>
+    <string name="ime_switcher_notify">Notification de sélection</string>
+    <string name="ime_switcher_notify_summary">Display input method selector notification</string> <!-- Missing translation -->
+
     <!-- Untranslated AOSP strings -->
     <string name="intent_sender_data_label"><xliff:g id="data">Données\u00A0:</xliff:g></string>
     <string name="bluetooth_enter_pin_msg_hs">\nSaisir le code PIN requis pour l\'association avec \u0022<xliff:g id="device_name">%1$s</xliff:g>\u0022. [Haute sécurité activée\u00A0: clé de 16 caractères nécessaire] </string>
