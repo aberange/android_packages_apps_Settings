@@ -20,6 +20,7 @@
     <string name="wifi_setting_countrycode_error">Il y a eu un problème de réglage du code de région.</string>
     <string name="wifi_setting_priority_title">Priorité Wi-Fi</string>
     <string name="wifi_setting_priority_summary">Définir la priorité des réseaux Wi-Fi</string>
+	<string name="wifi_menu_forget_all">Oublier tous les réseaux</string>
     <string name="ring_mode_title">Sonnerie</string>
     <string name="ring_mode_normal">Normal</string>
     <string name="ring_mode_vibrate">Vibreur</string>
@@ -176,6 +177,12 @@
     <string name="battery_light_low_color_title">Batterie faible</string>
     <string name="battery_light_medium_color_title">En charge</string>
     <string name="battery_light_full_color_title">Chargée</string>
+	
+	<string name="lock_pattern_size_3">3x3</string>
+    <string name="lock_pattern_size_4">4x4</string>
+    <string name="lock_pattern_size_5">5x5</string>
+    <string name="lock_pattern_size_6">6x6</string>
+	
     <string name="volume_ring_only_description">Sonneries</string>
     <string name="lockpattern_settings_enable_error_path_title">Afficher l\'erreur de schéma</string>
     <string name="lockpattern_settings_enable_dots_title">Afficher les points</string>
@@ -335,6 +342,9 @@ Des options supplémentaires sont disponibles en appuyant longtemps sur une lign
     <string name="quiet_hours_title">Heures silencieuses</string>
     <string name="quiet_hours_summary">Configurer les heures où le téléphone doit être silencieux</string>
     <string name="quiet_hours_enabled">Heures silencieuses</string>
+	
+	<string name="quiet_hours_ringer">Sonnerie de téléphone</string>
+	
     <string name="quiet_hours_mute">Désactiver notifications</string>
     <string name="quiet_hours_system">Désactiver les sons systèmes</string>
     <string name="quiet_hours_still">Désactiver les vibrations</string>
@@ -342,6 +352,12 @@ Des options supplémentaires sont disponibles en appuyant longtemps sur une lign
     <string name="quiet_hours_haptic">Désactiver le retour haptique</string>
     <string name="quiet_hours_active_from">Actif de</string>
     <string name="quiet_hours_active_to">jusqu\'à</string>
+	
+	<string name="quiet_hours_ringer_allow_all">Sonner pour tous les appelants</string>
+    <string name="quiet_hours_ringer_allow_contacts">Sonner pour tous les contacts</string>
+    <string name="quiet_hours_ringer_allow_starred">Sonnez pour les contacts favoris</string>
+    <string name="quiet_hours_ringer_mute_all">Muet pour tous les appelants</string>
+	
     <string name="start_time_title">Début</string>
     <string name="end_time_title">Fin</string>
     <string name="mod_version">Version CyanogenMod</string>
@@ -370,13 +386,6 @@ Des options supplémentaires sont disponibles en appuyant longtemps sur une lign
     <string name="performance_settings_warning">Les options présentes ici altèrent les performances du système, en bien ou en mal.\nElles ont des comportements différents selon les appareils et ne sont disponibles que pour expérimentation.\nNous vous demandons de ne pas soumettre de rapport de bug à propos de celles-ci.</string>
     <string name="performance_set_on_boot">Définir au démarrage</string>
     <string name="performance_set_on_boot_summary">Définir les paramètres à chaque démarrage</string>
-    <string name="processor_title">Processeur</string>
-    <string name="cpu_cur_freq_title">Fréquence actuelle</string>
-    <string name="cpu_governors_title">Stratégie</string>
-    <string name="cpu_min_freq_title">Fréquence minimale</string>
-    <string name="cpu_max_freq_title">Fréquence maximale</string>
-    <string name="io_scheds_title">Horloge E/S</string>
-    <string name="io_sched_title">Horloge E/S</string>
     <string name="perf_profile_title">Profil</string>
     <string name="memory_management_title">Gestion de la mémoire</string>
     <string name="pref_ksm_title">KSM</string>
@@ -396,6 +405,9 @@ Des options supplémentaires sont disponibles en appuyant longtemps sur une lign
     <string name="cmupdate_settings_summary">Vérifier, afficher ou installer les mises à jour disponibles</string>
     <string name="advanced_settings_title">Paramètres avancés</string>
     <string name="development_tools_title">Outils de développement</string>
+	
+	<string name="privacy_settings_cyanogenmod_title">Privacy</string> <!-- Missing translation -->
+	
     <string name="privacy_guard_switch_label">Activer la protection des données</string>
     <string name="privacy_guard_dlg_title">Activer la protection des données\u00A0?</string>
     <string name="privacy_guard_dlg_text">Lorsque la protection des données est activée, les applications n\'ont pas accès à vos données personnelles telles que les contacts, les messages ou le journal d\'appels.</string>
@@ -475,6 +487,9 @@ Des options supplémentaires sont disponibles en appuyant longtemps sur une lign
     <string name="collapse_on_dismiss_never_summary">Garder la barre de notification ouverte lorsque les notifications sont supprimées</string>
     <string name="collapse_on_dismiss_if_empty_summary">Fermer la barre de notification lorsque la dernière notification est supprimée</string>
     <string name="collapse_on_dismiss_if_no_clearable_summary">Fermer la barre de notification lorsque la dernière notification amovible est supprimée</string>
+	
+	<string name="double_tap_to_wake_title">Double-appui pour réveiller</string>
+	
     <string name="category_quick_access">Bandeau d\'accès rapide</string>
     <string name="title_quick_access">Afficher avec les notifications</string>
     <string name="title_quick_access_linked">Lier la disposition</string>
@@ -482,7 +497,9 @@ Des options supplémentaires sont disponibles en appuyant longtemps sur une lign
     <string name="font_size_sample">Exemple</string>
     <string name="sms_security_check_limit_title">Limiter l\'émission de SMS</string>
     <string name="sms_security_check_limit_summary">Afficher un message d\'alerte pour prévenir qu\'une application envoie des messages SMS trop fréquemment. Limite actuelle : %d messages en 15 minutes</string>
-    <string name="sms_security_check_limit_default">30 (Défaut)</string>
+	<string name="sms_security_check_limit_summary_none">Les apps ne sont pas autorisés à envoyer des messages sans confirmation</string>	
+	<string name="sms_security_check_limit_default">30 (Défaut)</string>
+	<string name="sms_security_check_limit_none">Aucune</string>
     <string name="lockscreen_custom_widgets_title">Widgets personnalisés</string>
     <string name="lock_clock_title">Widget horloge</string>
     <string name="lock_clock_summary">Modifier la façon dont le widget est affiché sur l\'écran d\'accueil ou de verrouillage</string>
@@ -492,6 +509,12 @@ Des options supplémentaires sont disponibles en appuyant longtemps sur une lign
     <string name="power_notifications_vibrate_title">Vibreur</string>
     <string name="power_notifications_ringtone_title">Son de notification</string>
     <string name="power_notifications_ringtone_silent">Silencieux</string>
+	
+	<string name="lockscreen_battery_status_title">État de la batterie</string>
+    <string name="lockscreen_battery_status_charging">Seulement lors de la charge</string>
+    <string name="lockscreen_battery_status_alwayson">Toujours</string>
+    <string name="lockscreen_battery_status_alwaysoff">Jamais</string>
+	
     <string name="lockscreen_target_info">Glisser pour assigner les raccourcis</string>
     <string name="lockscreen_target_title">Raccourcis</string>
     <string name="lockscreen_target_summary">Configurer les raccourcis de l\'écran de verrouillage</string>
@@ -555,7 +578,6 @@ Des options supplémentaires sont disponibles en appuyant longtemps sur une lign
     <string name="power_menu_user_title">Utilisateur</string>
     <string name="power_menu_sound_title">Son et vibreur</string>
     <string name="button_settings">Boutons</string>
-    <string name="hardware_keys_enable_custom_title">Autoriser boutons personnalisés</string>
     <string name="hardware_keys_home_key_title">Bouton Accueil</string>
     <string name="hardware_keys_menu_key_title">Bouton Menu</string>
     <string name="hardware_keys_assist_key_title">Bouton Rechercher</string>
@@ -657,8 +679,26 @@ Des options supplémentaires sont disponibles en appuyant longtemps sur une lign
     <string name="pref_scrollingcache_default_enable">Activer par défaut</string>
     <string name="pref_scrollingcache_default_disable">Désactiver par défaut</string>
     <string name="pref_scrollingcache_force_disable">Désactivé</string>
-	<string name="ime_switcher_notify">Notification de sélection</string>
-    <string name="ime_switcher_notify_summary">Display input method selector notification</string> <!-- Missing translation -->
+	
+	<!--No translations for App ops -->
+	<string name="app_ops_summaries_auto_start">démarrage automatique</string>
+    <string name="app_ops_labels_auto_start">Démarrage automatique</string>
+	
+    <string name="app_ops_categories_bootup">Démarrage</string>
+	
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (used <xliff:g id="count">%2$s</xliff:g>)</string>
+    <string name="app_ops_allowed_count">Autorisé <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">Refusé <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count">Autorisé <xliff:g id="count">%1$s</xliff:g>, denied <xliff:g id="count">%2$s</xliff:g></string>
+    <plurals name="app_ops_count">
+        <item quantity="one">Une fois</item>
+        <item quantity="other">%d fois</item>
+    </plurals>
+    <string name="app_ops_show_user_apps">Voir les apps utilisateurs</string>
+    <string name="app_ops_show_system_apps">Voir les apps système</string>
+    <string name="app_ops_reset_counters">Réinitialiser les compteurs autoriser/refuser</string>
+    <string name="app_ops_reset_confirm_title">Confirmez la réinitialisation des compteurs</string>
+    <string name="app_ops_reset_confirm_mesg">Etes-vous sûr de vouloir réinitialiser les compteurs AppOps?</string>
 	
     <!-- Untranslated AOSP strings -->
     <string name="intent_sender_data_label"><xliff:g id="data">Données\u00A0:</xliff:g></string>
